@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 320px;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border: 2px double;
+            border-radius: 15px;
+        }
+        .heading{
+            font-size: 20px;
+            font-style: italic;
+            color: tomato;
+            margin-top: 10px;
+            margin-left: 10px;
+            
+            }
+            .display{
+                margin-top: 20px;
+                background-color: rgb(96, 101, 101);    
+                width: 280px;    
+                height: 40px;
+                margin-left: 16px;
+                margin-bottom: 20px;
+            }
+            .buttons{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 15px;
+                }
+                .b{
+                    height: 50px;
+                    width: 50px;
+                    font-weight: bolder;
+                    font-size: larger;
+                    border-radius: 180px;
+                    box-shadow: 0.7px 0.5px 1px 3px #f2f2f2;
+                    }
+                    .b1{
+                    background-color: yellow;
+                    height: 50px;
+                    width: 50px;
+                    font-weight: bolder;
+                    border-radius: 180px;
+                    font-size: larger;
+                    box-shadow: 0.7px 0.5px 1px 3px #f2f2f2;
+                    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            RTC 
+        </div>        
+        <div >
+            <input type="text" class="display">
+        </div>
+        <div class="buttons">
+            <button class="b">1</button>
+            <button class="b">2</button>
+            <button class="b">3</button>
+            <button class="b">*</button>
+        </div>
+        <div class="buttons">
+            <button class="b">4</button>
+            <button class="b">5</button>
+            <button class="b">6</button>
+            <button class="b">+</button>
+        </div>
+        <div class="buttons">
+            <button class="b">7</button>
+            <button class="b">8</button>
+            <button class="b">9</button>
+            <button class="b">%</button>
+        </div>
+        <div class="buttons">
+            <button class="b">0</button>
+            <button class="b">/</button>
+            <button class="b">.</button>
+            <button class="b1">=</button>
+        </div>
+
+    </div>
+</body>
+</html>
